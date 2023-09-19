@@ -1,0 +1,19 @@
+<h1>
+  <%= title %>
+</h1>
+
+<ul>
+  <% if (author_list.length> 0) {%>
+    <% author_list.forEach(author=> { %>
+      <li class="list_item">
+        <a href="<%= author.url %>">
+          <%= author.name %>
+        </a>
+        <p>(<%= author.lifespan %> )</p>
+      </li>
+
+      <% })} else { %>
+        <li>There are no authors.</li>
+        <% } %>
+
+</ul>
