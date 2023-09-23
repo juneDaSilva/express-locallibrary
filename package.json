@@ -16,6 +16,10 @@
   },
   "name": "learn-express",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18.17.1"
+  },
+  "private": true,
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
